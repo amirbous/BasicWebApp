@@ -12,10 +12,10 @@ public class QueryProcessor {
                     "English poet, playwright, and actor, widely regarded as the greatest " +
                     "writer in the English language and the world's pre-eminent dramatist.";
         }
-         else if (query.contains("what is your name")){
+        else if (query.contains("what is your name")){
 		    return "amir";
 	    }   else if (query.contains("name")) {
-           return "MyTeam";
+           return "amir";
         } else { // TODO extend the programm here
             return "";
         }
